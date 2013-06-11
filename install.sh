@@ -12,5 +12,5 @@ case "$ver" in
 	;;
 esac
 
-go clean -i github.com/axw/gollvm/llvm
-go get $tags $* github.com/axw/gollvm/llvm
+go clean -i github.com/greggoryhz/gollvm/llvm
+go get $tags $* github.com/greggoryhz/gollvm/llvm

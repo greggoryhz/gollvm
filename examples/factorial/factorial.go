@@ -3,7 +3,7 @@ package main
 
 import "fmt"
 
-import "github.com/axw/gollvm/llvm"
+import "github.com/greggoryhz/gollvm/llvm"
 
 func test() {
 	llvm.LinkInJIT()

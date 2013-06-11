@@ -16,12 +16,12 @@ Installation
 
 To install, run the following (assuming you have curl and Go installed):
 
-    curl https://raw.github.com/axw/gollvm/master/install.sh | sh
+    curl https://raw.github.com/greggoryhz/gollvm/master/install.sh | sh
 
 Alternatively, you can use `go get` directly, but you must then set the
 CGO\_CFLAGS and CGO\_LDFLAGS environment variables:
 
     $ export CGO_CFLAGS=`llvm-config --cflags`
     $ export CGO_LDFLAGS="`llvm-config --ldflags` -Wl,-L`llvm-config --libdir` -lLLVM-`llvm-config --version`"
-    $ go get github.com/axw/gollvm/llvm
+    $ go get github.com/greggoryhz/gollvm/llvm
 
